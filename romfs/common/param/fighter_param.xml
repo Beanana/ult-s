@@ -25039,10 +25039,10 @@
       <float hash="jump_initial_y">16.39</float>
       <float hash="jump_y">29.8</float>
       <float hash="mini_jump_y">17.8</float>
-      <float hash="jump_aerial_y">32</float>
-      <float hash="air_accel_x_mul">0.06</float>
+      <float hash="jump_aerial_y">41</float>
+      <float hash="air_accel_x_mul">0.1</float>
       <float hash="air_accel_x_add">0.01</float>
-      <float hash="air_speed_x_stable">0.92</float>
+      <float hash="air_speed_x_stable">1.2</float>
       <float hash="air_brake_x">0.014</float>
       <float hash="air_accel_y">0.11</float>
       <float hash="air_speed_y_stable">1.76</float>
