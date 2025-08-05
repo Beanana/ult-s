@@ -25,7 +25,6 @@ static mut Y: [f32; 8] = [0.0; 8];
 static mut BATON_TYPE: [i32; 8] = [0; 8];
 static BATON_MAX : i32 = 2;
 
-
 pub(crate) fn check_jump(boma: &mut smash::app::BattleObjectModuleAccessor) -> bool {
 	unsafe {
 		if ControlModule::check_button_on_trriger(boma, *CONTROL_PAD_BUTTON_JUMP) {
@@ -41,10 +40,4 @@ pub(crate) fn check_jump(boma: &mut smash::app::BattleObjectModuleAccessor) -> b
 		};
 		return false;
 	}
-}
-
-pub fn install() {
-	frame::install();
-	status::install();
-	acmd::install();
 }
